@@ -5,7 +5,7 @@ let area=radius*radius*PI;
 console.log(area);
 
 radius=20;
-let area=radius*radius*PI;
+area=radius*radius*PI;
 
 console.log(area);
 
