@@ -49,3 +49,29 @@ li{
     font-size: 15px;
     font-style: italic;
 }
+
+/* dark mode */
+body.dark {
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+body.dark #content {
+    color: white;
+    border-color: white;
+}
+
+body.dark h1,
+body.dark #topics,
+body.dark #italics {
+    color: white;
+}
+
+body.dark hr {
+    background-color: white;
+}
+body.dark #spaced{
+    color: #6eb3e0;
+    letter-spacing: 3px;
+    font-size: 11px;
+}
