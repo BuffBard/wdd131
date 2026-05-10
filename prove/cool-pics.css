@@ -1,0 +1,84 @@
+html, body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    background-color: gray;
+    height: 100%;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+header{
+    background-color: blue;
+    height: 115px;
+    color: white;
+}
+nav a {
+    display: none;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+#menu-btn {
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+h1{
+    margin:0;
+    padding:0;
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
+p{
+    font-size: 1.2em;
+    margin:0;
+}
+#menu{
+    display: inline-flex;
+    gap: 20px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 5px 5px 10px black;
+    margin: 40px;
+}
+footer{
+    background-color: blue;
+    height:auto;
+}
+/* ---------- MEDIUM SCREENS ---------- */
+@media screen and (min-width: 700px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #menu-btn {
+        display: none;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+
+    nav {
+        margin-top: 1rem;
+    }
+}
+
+/* ---------- LARGE SCREENS ---------- */
+@media screen and (min-width: 1000px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
