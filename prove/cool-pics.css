@@ -57,7 +57,7 @@ footer{
     background-color: blue;
     height:auto;
 }
-/* ---------- MEDIUM SCREENS ---------- */
+
 @media screen and (min-width: 700px) {
     main {
         grid-template-columns: 1fr 1fr;
@@ -75,8 +75,6 @@ footer{
         margin-top: 1rem;
     }
 }
-
-/* ---------- LARGE SCREENS ---------- */
 @media screen and (min-width: 1000px) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
