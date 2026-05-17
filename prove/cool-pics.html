@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cool Pics</title>
     <link rel="stylesheet" href="cool-pics.css">
+    <script src="cool-pics.js" defer></script>
 </head>
 <body>
     <header>
     <h1 id="title">Cool Pics 📷</h1>
-    <p id="menu-btn">Menu</p>
-    <nav>
+    <button class="menu-btn">
+        <p>Menu</p>
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <div class="bar4"></div>
+        <div class="bar5"></div>
+    </button>
+    
+    <nav class="hide">
         <a href="#">Home</a>
+        <a href="#">People</a>
         <a href="#">Gallery</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
@@ -20,16 +30,41 @@
 
     <body>
     <h2>Current Work</h2>
-    <img src="images\norris-sm.jpg">
-    <img src="images\norris-sm.jpg">
-    <img src="images\norris-sm.jpg">
-    <img src="images\norris-sm.jpg">
-    <img src="images\norris-sm.jpg">
-    <img src="images\norris-sm.jpg">
-    <img src="images\norris-sm.jpg">
-    <img src="images\norris-sm.jpg">
-    <img src="images\norris-sm.jpg">
+    <section class="gallery">
+        <figure>
+            <img src="images\norris-sm.jpg">
+        </figure>
+        <figure>
+            <img src="images\norris-sm.jpg">
+        </figure>
+        <figure>
+            <img src="images\norris-sm.jpg">
+        </figure>
+        <figure>
+            <img src="images\norris-sm.jpg">
+        </figure>
+        <figure>
+            <img src="images\norris-sm.jpg">
+        </figure>
+        <figure>
+            <img src="images\norris-sm.jpg">
+        </figure>
+        <figure>
+            <img src="images\norris-sm.jpg">
+        </figure>
+        <figure>
+            <img src="images\norris-sm.jpg">
+        </figure>
+        <figure>
+            <img src="images\norris-sm.jpg">
+        </figure>
+    </section>
+    <dialog>
+        <img>
+        <button class="close-viewer">X</button>
+    </dialog>
     </body>
+    
 
     <footer>
     <p>Welcome to the bottom of the page.</p>

@@ -80,6 +80,7 @@ footer {
     }
     nav{
         text-align: right;
+        margin-top: 1rem;
     }
 }
 @media screen and (min-width: 1000px) {
