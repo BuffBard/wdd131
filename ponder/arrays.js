@@ -52,7 +52,7 @@ function getTotal(total,item){
 };
 console.log(totalPoints);
 let gpsAverage=totalPoints/gpaPoints.length;
-console,log(gpsAverage);
+console.log(gpsAverage);
 
 
 //.filter
