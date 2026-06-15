@@ -16,4 +16,7 @@ document.querySelector("#attacked").addEventListener("click", function () {
         cardChar.cardHealth=cardChar.cardHealth-10;
         document.querySelector("#cardHealth").textContent = "Health: "+cardChar.cardHealth;
     }
+    if(cardChar.cardHealth===0){
+        alert("Character has Died!");
+    }
 });
