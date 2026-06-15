@@ -13,7 +13,7 @@ document.querySelector("#levelUp").addEventListener("click", function () {
 
 document.querySelector("#attacked").addEventListener("click", function () {
     if(cardChar.cardHealth>0){
-        cardChar.cardHealth--;
+        cardChar.cardHealth=cardChar.cardHealth-10;
         document.querySelector("#cardHealth").textContent = "Health: "+cardChar.cardHealth;
     }
 });
