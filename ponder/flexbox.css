@@ -27,8 +27,8 @@ flex-direction: column;
     gap: 1em;
 }
 
-.gallery > *{
-    flex: 1 1 460;
+.gallery > * {
+    flex: 1 1 460px;
 }
 
 /* .media-card{
@@ -47,17 +47,17 @@ margin-top: 50px;
 }
               
 @media screen and (min-width: 550px){
-    .main-naw{
+    .main-nav{
         flex-direction: row;
         justify-content: flex-end;
     }
     .media-card{
         flex-direction: row;
     }
-    .media-card image{
+    .media-card-image{
         flex: 0 1 250px;
     }
-    .media-card content{
+    .media-card-content{
         flex: 0 1 60ch;
     }
 }
