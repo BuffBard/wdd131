@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipies</title>
     <link rel="stylesheet" href="recipies.css" />
+    <script defer src="recipies.js"></script>
     
     <!-- Open Graph (Facebook, LinkedIn, etc.) -->
     <meta property="og:type" content="website">
@@ -35,35 +36,14 @@
         </div>
 
         <div class="search">
-        <input type="text" placeholder="Find a Recipe">
+        <input id="searchBar" type="text" placeholder="Find a Recipe">
         <button>
         <img src="images/search.svg" alt="Search Icon"> 
         </button>
         </div>
     </header>
     <main>
-      <section class="media-card-container">
-        <section class="media-card">
-            <div class="media-card-image">
-                <img src="images/apple-crisp.jpg" alt="Apple Crisp Dessert Picture"> 
-            </div>
-            <div class="media-card-content">
-              <button>
-                <h3>Dessert</h3>
-              </button>
-                <h2>Apple Crisp</h2>
-                <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star-empty">☆</span>
-                </span>
-                <p>This apple crsip recipie is a simple yet delicious tart dessert that is great served warm with vanilla ice cream.</p>
-            </div>
-        </section>
-        <hr>
-      </section>
+      <section id="recipeContainer" class="media-card-container"></section>
     </main>
     <footer>
         <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>                   
